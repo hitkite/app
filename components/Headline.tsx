@@ -1,6 +1,5 @@
-
 import React from 'react';
-import styles from '@/styles/Home.module.css'
+import classes from '@/components/Headline.module.css'
 
 type Props = {
   title: string
@@ -9,7 +8,7 @@ type Props = {
 export function Headline(props: Props) {
   return (
     <>
-      <h1  className={styles.title}>{props.title}</h1>
+      <h1  className={classes.title}>{props.title}</h1>
     </>
   )
 }
